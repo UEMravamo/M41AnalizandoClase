@@ -106,3 +106,12 @@ El sistema procesará un archivo de registros que contiene información sobre la
 Usa algoritmos como regresión lineal o ARIMA para mejorar el forecast.
 * Modo en Tiempo Real:
 Implementa un flujo continuo con PySpark Streaming para procesar nuevos registros mientras se generan.
+
+---
+
+## Requisitos
+
+- Usa Python 3.7.
+- Escribe código conforme a PEP8.
+- Escribe algunas pruebas (considera usar pytest o uniitest).
+- Documenta tu solución en un archivo
