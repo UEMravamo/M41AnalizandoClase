@@ -115,3 +115,6 @@ Implementa un flujo continuo con PySpark Streaming para procesar nuevos registro
 - Escribe código conforme a PEP8.
 - Escribe algunas pruebas (considera usar pytest o uniitest).
 - Documenta tu solución en un archivo
+---
+## UPDATE
+**UPDATE 2024-12-22**: Se añade un fichero de ejemplo con casos de uso. Uno de los aspectos clave de este problema es generar un dataset basado en las condiciones establecidas y estudiar, así como planificar, todos los corner cases (casos excepcionales) que pueden ocurrir en un sistema de fichajes
