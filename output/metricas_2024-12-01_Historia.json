@@ -1,0 +1,59 @@
+{
+    "asignatura": "Historia",
+    "totales_dia_actual": {
+        "Presente": 9,
+        "Ausente": 19,
+        "Tarde": 15,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_40",
+                "alumno_27",
+                "alumno_46",
+                "alumno_29",
+                "alumno_30",
+                "alumno_25",
+                "alumno_43",
+                "alumno_44",
+                "alumno_26"
+            ],
+            "Ausente": [
+                "alumno_20",
+                "alumno_24",
+                "alumno_13",
+                "alumno_8",
+                "alumno_37",
+                "alumno_13",
+                "alumno_5",
+                "alumno_27",
+                "alumno_22",
+                "alumno_47",
+                "alumno_6",
+                "alumno_22",
+                "alumno_7",
+                "alumno_39",
+                "alumno_34",
+                "alumno_31",
+                "alumno_30",
+                "alumno_30",
+                "alumno_18"
+            ],
+            "Tarde": [
+                "alumno_37",
+                "alumno_24",
+                "alumno_41",
+                "alumno_46",
+                "alumno_46",
+                "alumno_37",
+                "alumno_36",
+                "alumno_34",
+                "alumno_6",
+                "alumno_22",
+                "alumno_5",
+                "alumno_28",
+                "alumno_20",
+                "alumno_32",
+                "alumno_29"
+            ]
+        }
+    }
+}
