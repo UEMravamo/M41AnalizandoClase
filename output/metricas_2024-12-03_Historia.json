@@ -94,8 +94,11 @@
         }
     },
     "estadisticas_acumuladas": {
-        "Presente": 17.67,
-        "Ausente": 20.0,
-        "Tarde": 24.67
+        "Media_Presente": 17.67,
+        "Media_Ausente": 20.0,
+        "Media_Tarde": 24.67,
+        "Desviacion_Presente": 7.57,
+        "Desviacion_Ausente": 3.61,
+        "Desviacion_Tarde": 10.02
     }
 }

@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import to_date, col, count, collect_list, avg, concat, lit
+from pyspark.sql.functions import to_date, col, count, collect_list, avg, concat, lit, stddev
 from pyspark.sql.functions import round
 import json
 
@@ -20,17 +20,20 @@ contadores_asistencia = df_filtrado_dia_asignatura.groupBy("estado_asistencia").
 alumnos_por_estado = df_filtrado_dia_asignatura.groupBy("estado_asistencia").agg(collect_list("alumno")).collect()
 
 #Estadísticas acumuladas
-#Media por estado asistencia
 df_filtrado_asignatura = df.filter((col("asignatura") == asignatura) & (to_date(col("timestamp")) <= fecha))
 df_columna_fecha = df_filtrado_asignatura.withColumn("fecha", to_date(col("timestamp")))
 
 contador_asistencia = df_columna_fecha.groupBy("estado_asistencia", "fecha").count()
-
+#Media por estado asistencia
 media_asistencia = contador_asistencia.groupBy("estado_asistencia").agg(avg("count").alias("medias"))
-
-#Ajuste para json
+#Media ajuste para json
 media_asistencia_json = media_asistencia.withColumn("estado_asistencia", concat(lit("Media_"), col("estado_asistencia")))
-media_asistencia_json = media_asistencia.withColumn("medias", round(col("medias"), 2)).collect()
+media_asistencia_json = media_asistencia_json.withColumn("medias", round(col("medias"), 2)).collect()
+#Desviacion estándar por estado asistencia
+desviacion_tipica_asistencia = contador_asistencia.groupBy("estado_asistencia").agg(stddev("count").alias("desviaciones"))
+#Desviacion estándar ajuste para json
+desviacion_tipica_asistencia_json = desviacion_tipica_asistencia.withColumn("estado_asistencia", concat(lit("Desviacion_"), col("estado_asistencia")))
+desviacion_tipica_asistencia_json = desviacion_tipica_asistencia_json.withColumn("desviaciones", round(col("desviaciones"), 2)).collect()
 
 data = {
     "asignatura": asignatura,
@@ -41,7 +44,8 @@ data = {
         }
     },
     "estadisticas_acumuladas": {
-        row["estado_asistencia"]: row["medias"] for row in media_asistencia_json
+        **{row["estado_asistencia"]: row["medias"] for row in media_asistencia_json},
+        **{row["estado_asistencia"]: row["desviaciones"] for row in desviacion_tipica_asistencia_json},
     }
 }
 
