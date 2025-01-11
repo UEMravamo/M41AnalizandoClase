@@ -55,5 +55,10 @@
                 "alumno_29"
             ]
         }
+    },
+    "estadisticas_acumuladas": {
+        "Presente": 9.0,
+        "Ausente": 19.0,
+        "Tarde": 15.0
     }
 }
