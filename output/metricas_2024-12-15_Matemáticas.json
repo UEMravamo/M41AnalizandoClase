@@ -1,0 +1,85 @@
+{
+    "asignatura": "Matematicas",
+    "totales_dia_actual": {
+        "Presente": 27,
+        "Ausente": 11,
+        "Tarde": 18,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_26",
+                "alumno_24",
+                "alumno_34",
+                "alumno_4",
+                "alumno_26",
+                "alumno_4",
+                "alumno_30",
+                "alumno_21",
+                "alumno_27",
+                "alumno_41",
+                "alumno_16",
+                "alumno_15",
+                "alumno_31",
+                "alumno_22",
+                "alumno_44",
+                "alumno_40",
+                "alumno_45",
+                "alumno_45",
+                "alumno_5",
+                "alumno_26",
+                "alumno_24",
+                "alumno_26",
+                "alumno_20",
+                "alumno_16",
+                "alumno_46",
+                "alumno_23",
+                "alumno_38"
+            ],
+            "Ausente": [
+                "alumno_31",
+                "alumno_37",
+                "alumno_14",
+                "alumno_35",
+                "alumno_6",
+                "alumno_2",
+                "alumno_1",
+                "alumno_39",
+                "alumno_36",
+                "alumno_28",
+                "alumno_29"
+            ],
+            "Tarde": [
+                "alumno_30",
+                "alumno_17",
+                "alumno_22",
+                "alumno_45",
+                "alumno_27",
+                "alumno_1",
+                "alumno_40",
+                "alumno_26",
+                "alumno_13",
+                "alumno_12",
+                "alumno_6",
+                "alumno_8",
+                "alumno_12",
+                "alumno_14",
+                "alumno_32",
+                "alumno_7",
+                "alumno_46",
+                "alumno_10"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 23.53,
+        "Media_Ausente": 19.33,
+        "Media_Tarde": 19.8,
+        "Desviacion_Presente": 5.88,
+        "Desviacion_Ausente": 5.35,
+        "Desviacion_Tarde": 5.07
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 13.33,
+        "Presente": 27.33,
+        "Tarde": 17.67
+    }
+}
