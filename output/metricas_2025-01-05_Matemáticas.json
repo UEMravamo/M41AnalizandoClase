@@ -1,0 +1,29 @@
+{
+    "asignatura": "Matematicas",
+    "totales_dia_actual": {
+        "Ausente": 2,
+        "Tarde": 2,
+        "alumnos_por_estado": {
+            "Ausente": [
+                "alumno_56",
+                "alumno_36"
+            ],
+            "Tarde": [
+                "alumno_40",
+                "alumno_20"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 20.06,
+        "Media_Ausente": 17.92,
+        "Media_Tarde": 18.11,
+        "Desviacion_Presente": 8.07,
+        "Desviacion_Ausente": 7.89,
+        "Desviacion_Tarde": 7.92
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 2.0,
+        "Tarde": 3.0
+    }
+}

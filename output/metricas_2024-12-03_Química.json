@@ -1,0 +1,90 @@
+{
+    "asignatura": "Quimica",
+    "totales_dia_actual": {
+        "Presente": 17,
+        "Ausente": 28,
+        "Tarde": 16,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_30",
+                "alumno_14",
+                "alumno_22",
+                "alumno_16",
+                "alumno_6",
+                "alumno_16",
+                "alumno_17",
+                "alumno_45",
+                "alumno_34",
+                "alumno_23",
+                "alumno_43",
+                "alumno_49",
+                "alumno_8",
+                "alumno_30",
+                "alumno_23",
+                "alumno_31",
+                "alumno_10"
+            ],
+            "Ausente": [
+                "alumno_21",
+                "alumno_42",
+                "alumno_24",
+                "alumno_14",
+                "alumno_11",
+                "alumno_50",
+                "alumno_28",
+                "alumno_28",
+                "alumno_40",
+                "alumno_38",
+                "alumno_14",
+                "alumno_36",
+                "alumno_42",
+                "alumno_45",
+                "alumno_27",
+                "alumno_47",
+                "alumno_39",
+                "alumno_20",
+                "alumno_5",
+                "alumno_9",
+                "alumno_43",
+                "alumno_5",
+                "alumno_44",
+                "alumno_50",
+                "alumno_7",
+                "alumno_11",
+                "alumno_14",
+                "alumno_43"
+            ],
+            "Tarde": [
+                "alumno_44",
+                "alumno_17",
+                "alumno_45",
+                "alumno_25",
+                "alumno_10",
+                "alumno_20",
+                "alumno_46",
+                "alumno_25",
+                "alumno_10",
+                "alumno_26",
+                "alumno_41",
+                "alumno_50",
+                "alumno_20",
+                "alumno_44",
+                "alumno_7",
+                "alumno_5"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 17.33,
+        "Media_Ausente": 23.0,
+        "Media_Tarde": 19.33,
+        "Desviacion_Presente": 5.51,
+        "Desviacion_Ausente": 9.54,
+        "Desviacion_Tarde": 4.93
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 23.0,
+        "Presente": 17.33,
+        "Tarde": 19.33
+    }
+}

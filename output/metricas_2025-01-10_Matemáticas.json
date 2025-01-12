@@ -1,0 +1,42 @@
+{
+    "asignatura": "Matematicas",
+    "totales_dia_actual": {
+        "Presente": 5,
+        "Ausente": 4,
+        "Tarde": 4,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_80",
+                "alumno_41",
+                "alumno_77",
+                "alumno_28",
+                "alumno_15"
+            ],
+            "Ausente": [
+                "alumno_83",
+                "alumno_57",
+                "alumno_34",
+                "alumno_91"
+            ],
+            "Tarde": [
+                "alumno_98",
+                "alumno_82",
+                "alumno_80",
+                "alumno_33"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 18.1,
+        "Media_Ausente": 16.15,
+        "Media_Tarde": 16.29,
+        "Desviacion_Presente": 9.19,
+        "Desviacion_Ausente": 8.82,
+        "Desviacion_Tarde": 8.91
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 3.67,
+        "Presente": 5.0,
+        "Tarde": 3.0
+    }
+}

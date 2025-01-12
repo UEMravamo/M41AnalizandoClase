@@ -1,0 +1,41 @@
+{
+    "asignatura": "Quimica",
+    "totales_dia_actual": {
+        "Presente": 7,
+        "Ausente": 2,
+        "Tarde": 3,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_79",
+                "alumno_55",
+                "alumno_40",
+                "alumno_15",
+                "alumno_96",
+                "alumno_23",
+                "alumno_13"
+            ],
+            "Ausente": [
+                "alumno_24",
+                "alumno_1"
+            ],
+            "Tarde": [
+                "alumno_62",
+                "alumno_18",
+                "alumno_87"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 21.0,
+        "Media_Ausente": 21.24,
+        "Media_Tarde": 20.35,
+        "Desviacion_Presente": 7.67,
+        "Desviacion_Ausente": 7.47,
+        "Desviacion_Tarde": 7.53
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 3.67,
+        "Presente": 4.0,
+        "Tarde": 3.67
+    }
+}

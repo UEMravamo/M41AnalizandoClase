@@ -1,0 +1,38 @@
+{
+    "asignatura": "Fisica",
+    "totales_dia_actual": {
+        "Presente": 4,
+        "Ausente": 1,
+        "Tarde": 4,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_41",
+                "alumno_64",
+                "alumno_71",
+                "alumno_98"
+            ],
+            "Ausente": [
+                "alumno_12"
+            ],
+            "Tarde": [
+                "alumno_95",
+                "alumno_84",
+                "alumno_1",
+                "alumno_32"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 20.85,
+        "Media_Ausente": 19.79,
+        "Media_Tarde": 20.36,
+        "Desviacion_Presente": 7.2,
+        "Desviacion_Ausente": 7.23,
+        "Desviacion_Tarde": 7.64
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 3.33,
+        "Presente": 4.33,
+        "Tarde": 3.33
+    }
+}

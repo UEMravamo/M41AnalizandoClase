@@ -1,0 +1,81 @@
+{
+    "asignatura": "Historia",
+    "totales_dia_actual": {
+        "Presente": 15,
+        "Ausente": 16,
+        "Tarde": 21,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_50",
+                "alumno_9",
+                "alumno_2",
+                "alumno_48",
+                "alumno_3",
+                "alumno_48",
+                "alumno_11",
+                "alumno_3",
+                "alumno_2",
+                "alumno_38",
+                "alumno_43",
+                "alumno_9",
+                "alumno_20",
+                "alumno_39",
+                "alumno_22"
+            ],
+            "Ausente": [
+                "alumno_33",
+                "alumno_6",
+                "alumno_42",
+                "alumno_16",
+                "alumno_47",
+                "alumno_44",
+                "alumno_35",
+                "alumno_19",
+                "alumno_49",
+                "alumno_32",
+                "alumno_20",
+                "alumno_34",
+                "alumno_37",
+                "alumno_32",
+                "alumno_32",
+                "alumno_11"
+            ],
+            "Tarde": [
+                "alumno_16",
+                "alumno_6",
+                "alumno_20",
+                "alumno_31",
+                "alumno_32",
+                "alumno_43",
+                "alumno_11",
+                "alumno_38",
+                "alumno_32",
+                "alumno_7",
+                "alumno_2",
+                "alumno_5",
+                "alumno_17",
+                "alumno_44",
+                "alumno_17",
+                "alumno_50",
+                "alumno_2",
+                "alumno_41",
+                "alumno_38",
+                "alumno_17",
+                "alumno_49"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 19.33,
+        "Media_Ausente": 22.5,
+        "Media_Tarde": 23.5,
+        "Desviacion_Presente": 7.92,
+        "Desviacion_Ausente": 6.16,
+        "Desviacion_Tarde": 6.53
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 25.0,
+        "Presente": 21.0,
+        "Tarde": 22.33
+    }
+}

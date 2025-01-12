@@ -1,0 +1,87 @@
+{
+    "asignatura": "Biologia",
+    "totales_dia_actual": {
+        "Presente": 18,
+        "Ausente": 22,
+        "Tarde": 18,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_11",
+                "alumno_47",
+                "alumno_26",
+                "alumno_29",
+                "alumno_48",
+                "alumno_29",
+                "alumno_50",
+                "alumno_50",
+                "alumno_38",
+                "alumno_48",
+                "alumno_40",
+                "alumno_18",
+                "alumno_43",
+                "alumno_16",
+                "alumno_48",
+                "alumno_31",
+                "alumno_38",
+                "alumno_30"
+            ],
+            "Ausente": [
+                "alumno_16",
+                "alumno_20",
+                "alumno_43",
+                "alumno_40",
+                "alumno_15",
+                "alumno_28",
+                "alumno_12",
+                "alumno_41",
+                "alumno_33",
+                "alumno_26",
+                "alumno_8",
+                "alumno_42",
+                "alumno_22",
+                "alumno_23",
+                "alumno_32",
+                "alumno_20",
+                "alumno_49",
+                "alumno_22",
+                "alumno_4",
+                "alumno_2",
+                "alumno_39",
+                "alumno_5"
+            ],
+            "Tarde": [
+                "alumno_9",
+                "alumno_3",
+                "alumno_40",
+                "alumno_33",
+                "alumno_22",
+                "alumno_16",
+                "alumno_9",
+                "alumno_12",
+                "alumno_11",
+                "alumno_18",
+                "alumno_4",
+                "alumno_14",
+                "alumno_37",
+                "alumno_19",
+                "alumno_22",
+                "alumno_48",
+                "alumno_36",
+                "alumno_49"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 21.0,
+        "Media_Ausente": 21.56,
+        "Media_Tarde": 21.0,
+        "Desviacion_Presente": 5.1,
+        "Desviacion_Ausente": 4.85,
+        "Desviacion_Tarde": 4.15
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 18.67,
+        "Presente": 22.0,
+        "Tarde": 17.67
+    }
+}

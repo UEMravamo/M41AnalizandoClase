@@ -1,0 +1,48 @@
+{
+    "asignatura": "Biologia",
+    "totales_dia_actual": {
+        "Presente": 8,
+        "Ausente": 2,
+        "Tarde": 9,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_19",
+                "alumno_2",
+                "alumno_47",
+                "alumno_8",
+                "alumno_10",
+                "alumno_44",
+                "alumno_24",
+                "alumno_40"
+            ],
+            "Ausente": [
+                "alumno_44",
+                "alumno_21"
+            ],
+            "Tarde": [
+                "alumno_21",
+                "alumno_9",
+                "alumno_50",
+                "alumno_40",
+                "alumno_34",
+                "alumno_9",
+                "alumno_3",
+                "alumno_41",
+                "alumno_40"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 20.87,
+        "Media_Ausente": 21.81,
+        "Media_Tarde": 20.65,
+        "Desviacion_Presente": 5.63,
+        "Desviacion_Ausente": 5.99,
+        "Desviacion_Tarde": 5.08
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 14.0,
+        "Presente": 22.0,
+        "Tarde": 20.33
+    }
+}
