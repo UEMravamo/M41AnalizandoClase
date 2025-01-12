@@ -1,0 +1,84 @@
+{
+    "asignatura": "Quimica",
+    "totales_dia_actual": {
+        "Presente": 19,
+        "Ausente": 20,
+        "Tarde": 16,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_36",
+                "alumno_9",
+                "alumno_6",
+                "alumno_15",
+                "alumno_34",
+                "alumno_23",
+                "alumno_47",
+                "alumno_44",
+                "alumno_46",
+                "alumno_27",
+                "alumno_19",
+                "alumno_8",
+                "alumno_26",
+                "alumno_22",
+                "alumno_30",
+                "alumno_16",
+                "alumno_13",
+                "alumno_4",
+                "alumno_23"
+            ],
+            "Ausente": [
+                "alumno_50",
+                "alumno_33",
+                "alumno_28",
+                "alumno_20",
+                "alumno_18",
+                "alumno_4",
+                "alumno_16",
+                "alumno_8",
+                "alumno_43",
+                "alumno_25",
+                "alumno_24",
+                "alumno_34",
+                "alumno_13",
+                "alumno_3",
+                "alumno_3",
+                "alumno_38",
+                "alumno_38",
+                "alumno_5",
+                "alumno_7",
+                "alumno_26"
+            ],
+            "Tarde": [
+                "alumno_18",
+                "alumno_7",
+                "alumno_12",
+                "alumno_45",
+                "alumno_30",
+                "alumno_37",
+                "alumno_42",
+                "alumno_48",
+                "alumno_36",
+                "alumno_21",
+                "alumno_42",
+                "alumno_22",
+                "alumno_45",
+                "alumno_31",
+                "alumno_6",
+                "alumno_3"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 21.2,
+        "Media_Ausente": 23.0,
+        "Media_Tarde": 22.3,
+        "Desviacion_Presente": 5.75,
+        "Desviacion_Ausente": 5.01,
+        "Desviacion_Tarde": 4.9
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 23.33,
+        "Presente": 20.0,
+        "Tarde": 22.33
+    }
+}

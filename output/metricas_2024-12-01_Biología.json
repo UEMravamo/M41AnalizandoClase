@@ -1,0 +1,77 @@
+{
+    "asignatura": "Biologia",
+    "totales_dia_actual": {
+        "Presente": 11,
+        "Ausente": 17,
+        "Tarde": 20,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_23",
+                "alumno_6",
+                "alumno_7",
+                "alumno_22",
+                "alumno_25",
+                "alumno_2",
+                "alumno_25",
+                "alumno_43",
+                "alumno_3",
+                "alumno_13",
+                "alumno_37"
+            ],
+            "Ausente": [
+                "alumno_44",
+                "alumno_11",
+                "alumno_24",
+                "alumno_26",
+                "alumno_8",
+                "alumno_5",
+                "alumno_43",
+                "alumno_10",
+                "alumno_24",
+                "alumno_14",
+                "alumno_21",
+                "alumno_50",
+                "alumno_22",
+                "alumno_42",
+                "alumno_4",
+                "alumno_18",
+                "alumno_23"
+            ],
+            "Tarde": [
+                "alumno_43",
+                "alumno_50",
+                "alumno_13",
+                "alumno_8",
+                "alumno_50",
+                "alumno_21",
+                "alumno_22",
+                "alumno_33",
+                "alumno_31",
+                "alumno_49",
+                "alumno_9",
+                "alumno_40",
+                "alumno_9",
+                "alumno_19",
+                "alumno_20",
+                "alumno_32",
+                "alumno_6",
+                "alumno_50",
+                "alumno_50",
+                "alumno_8"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 11.0,
+        "Media_Ausente": 17.0,
+        "Media_Tarde": 20.0,
+        "Desviacion_Presente": null,
+        "Desviacion_Ausente": null,
+        "Desviacion_Tarde": null
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 17.0,
+        "Presente": 11.0,
+        "Tarde": 20.0
+    }
+}

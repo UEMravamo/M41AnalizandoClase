@@ -1,0 +1,70 @@
+{
+    "asignatura": "Quimica",
+    "totales_dia_actual": {
+        "Presente": 12,
+        "Ausente": 12,
+        "Tarde": 17,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_1",
+                "alumno_41",
+                "alumno_45",
+                "alumno_5",
+                "alumno_12",
+                "alumno_27",
+                "alumno_50",
+                "alumno_36",
+                "alumno_28",
+                "alumno_46",
+                "alumno_32",
+                "alumno_43"
+            ],
+            "Ausente": [
+                "alumno_28",
+                "alumno_27",
+                "alumno_50",
+                "alumno_30",
+                "alumno_15",
+                "alumno_23",
+                "alumno_28",
+                "alumno_44",
+                "alumno_27",
+                "alumno_40",
+                "alumno_40",
+                "alumno_12"
+            ],
+            "Tarde": [
+                "alumno_30",
+                "alumno_45",
+                "alumno_44",
+                "alumno_33",
+                "alumno_19",
+                "alumno_44",
+                "alumno_43",
+                "alumno_26",
+                "alumno_36",
+                "alumno_20",
+                "alumno_18",
+                "alumno_16",
+                "alumno_8",
+                "alumno_20",
+                "alumno_47",
+                "alumno_5",
+                "alumno_2"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 12.0,
+        "Media_Ausente": 12.0,
+        "Media_Tarde": 17.0,
+        "Desviacion_Presente": null,
+        "Desviacion_Ausente": null,
+        "Desviacion_Tarde": null
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 12.0,
+        "Presente": 12.0,
+        "Tarde": 17.0
+    }
+}

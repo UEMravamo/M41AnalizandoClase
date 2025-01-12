@@ -30,9 +30,9 @@ media_asistencia = contador_asistencia.groupBy("estado_asistencia").agg(avg("cou
 #Media ajuste para json
 media_asistencia_json = media_asistencia.withColumn("estado_asistencia", concat(lit("Media_"), col("estado_asistencia")))
 media_asistencia_json = media_asistencia_json.withColumn("medias", round(col("medias"), 2)).collect()
-#Desviacion estándar por estado asistencia
+#Desviacion típica por estado asistencia
 desviacion_tipica_asistencia = contador_asistencia.groupBy("estado_asistencia").agg(stddev("count").alias("desviaciones"))
-#Desviacion estándar ajuste para json
+#Desviacion típica ajuste para json
 desviacion_tipica_asistencia_json = desviacion_tipica_asistencia.withColumn("estado_asistencia", concat(lit("Desviacion_"), col("estado_asistencia")))
 desviacion_tipica_asistencia_json = desviacion_tipica_asistencia_json.withColumn("desviaciones", round(col("desviaciones"), 2)).collect()
 
@@ -42,6 +42,9 @@ window = Window.partitionBy("estado_asistencia").orderBy("fecha").rowsBetween(-2
 pronostico_asistencia = contador_asistencia.withColumn("media_movil", avg("count").over(window))
 
 pronostico_asistencia_dia_siguiente = pronostico_asistencia.filter(to_date(col("fecha")) == fecha)
+pronostico_asistencia_dia_siguiente = pronostico_asistencia_dia_siguiente.select(col("estado_asistencia"), col("media_movil"))
+
+pronostico_asistencia_dia_siguiente_json = pronostico_asistencia_dia_siguiente.withColumn("media_movil", round(col("media_movil"), 2)).collect()
 
 data = {
     "asignatura": asignatura,
@@ -54,6 +57,9 @@ data = {
     "estadisticas_acumuladas": {
         **{row["estado_asistencia"]: row["medias"] for row in media_asistencia_json},
         **{row["estado_asistencia"]: row["desviaciones"] for row in desviacion_tipica_asistencia_json},
+    },
+    "forecast_dia_siguiente": {
+        row["estado_asistencia"]: row["media_movil"] for row in pronostico_asistencia_dia_siguiente_json
     }
 }
 
