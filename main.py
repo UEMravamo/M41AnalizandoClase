@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import to_date, col, count, collect_list, avg, concat, lit, stddev
 from pyspark.sql.functions import round
+from pyspark.sql import Window
 import json
 
 spark = SparkSession.builder.appName("Analizando la Asistencia en Clase").getOrCreate()
@@ -8,7 +9,7 @@ spark = SparkSession.builder.appName("Analizando la Asistencia en Clase").getOrC
 df = spark.read.csv("asistencia.csv", header=True, inferSchema=True)
 
 #Parámetros
-fecha = "2024-12-02"
+fecha = "2024-12-01"
 asignatura = "Historia"
 
 df_filtrado_dia_asignatura = df.filter((to_date(col("timestamp")) == fecha) & (col("asignatura") == asignatura))
@@ -34,6 +35,13 @@ desviacion_tipica_asistencia = contador_asistencia.groupBy("estado_asistencia").
 #Desviacion estándar ajuste para json
 desviacion_tipica_asistencia_json = desviacion_tipica_asistencia.withColumn("estado_asistencia", concat(lit("Desviacion_"), col("estado_asistencia")))
 desviacion_tipica_asistencia_json = desviacion_tipica_asistencia_json.withColumn("desviaciones", round(col("desviaciones"), 2)).collect()
+
+#Forecast Día Siguiente
+window = Window.partitionBy("estado_asistencia").orderBy("fecha").rowsBetween(-2, 0)
+
+pronostico_asistencia = contador_asistencia.withColumn("media_movil", avg("count").over(window))
+
+pronostico_asistencia_dia_siguiente = pronostico_asistencia.filter(to_date(col("fecha")) == fecha)
 
 data = {
     "asignatura": asignatura,

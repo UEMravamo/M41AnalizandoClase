@@ -72,5 +72,10 @@
         "Desviacion_Presente": 7.92,
         "Desviacion_Ausente": 6.16,
         "Desviacion_Tarde": 6.53
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 25.0,
+        "Presente": 21.0,
+        "Tarde": 22.33
     }
 }
