@@ -63,5 +63,10 @@
         "Desviacion_Presente": null,
         "Desviacion_Ausente": null,
         "Desviacion_Tarde": null
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 19.0,
+        "Presente": 9.0,
+        "Tarde": 15.0
     }
 }
