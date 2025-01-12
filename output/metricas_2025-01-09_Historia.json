@@ -1,0 +1,40 @@
+{
+    "asignatura": "Historia",
+    "totales_dia_actual": {
+        "Presente": 5,
+        "Ausente": 3,
+        "Tarde": 3,
+        "alumnos_por_estado": {
+            "Presente": [
+                "alumno_11",
+                "alumno_30",
+                "alumno_80",
+                "alumno_40",
+                "alumno_38"
+            ],
+            "Ausente": [
+                "alumno_63",
+                "alumno_99",
+                "alumno_61"
+            ],
+            "Tarde": [
+                "alumno_4",
+                "alumno_76",
+                "alumno_57"
+            ]
+        }
+    },
+    "estadisticas_acumuladas": {
+        "Media_Presente": 17.15,
+        "Media_Ausente": 17.4,
+        "Media_Tarde": 17.9,
+        "Desviacion_Presente": 8.15,
+        "Desviacion_Ausente": 9.06,
+        "Desviacion_Tarde": 8.77
+    },
+    "forecast_dia_siguiente": {
+        "Ausente": 3.0,
+        "Presente": 3.67,
+        "Tarde": 4.0
+    }
+}
